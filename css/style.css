@@ -53,6 +53,11 @@ body {
   display: flex;
 }
 
+.game-line:not(:last-child) {
+  border-right: 3px solid #284344;
+}
+
 .game-line-img--img {
   width: 78px;
+  padding: 5px;
 }
